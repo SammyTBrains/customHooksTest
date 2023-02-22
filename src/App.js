@@ -6,6 +6,7 @@ import useHttp from "./hooks/use-http";
 
 function App() {
   const [tasks, setTasks] = useState([]);
+
   const transformedData = (data) => {
     const loadedTasks = [];
 
